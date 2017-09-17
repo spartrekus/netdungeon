@@ -170,8 +170,8 @@ int main( int argc, char *argv[])
    int newcell;
 
 
-	initscr();			/* Start curses mode 		  */
-        curs_set( 0 );
+	// initscr();			/* Start curses mode 		  */
+        // curs_set( 0 );
 
         create_dm();
 
