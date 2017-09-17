@@ -112,7 +112,7 @@ void draw_init()
 
 void draw_help()
 {
-        erase(); int i ; 
+        erase(); int i = 5 ; 
         mvprintw( 0 , 0, "=NetDungeon=");	/* Print Hello World		  */
         mvprintw( i++ , 0, "O : Player " );
         mvprintw( i++ , 0, "P : Net Player (Online Mode, if Client MMORPH Rogue)" );
